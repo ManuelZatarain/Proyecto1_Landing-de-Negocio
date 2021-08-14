@@ -1,0 +1,49 @@
+.body-01 {
+  background-color:transparent;
+ }
+.papa {
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 100px 1fr;
+}
+.header-01 {
+  background-color: transparent;
+   grid-column: 1/5;
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-start
+}
+.asside-01 {
+  background-color: transparent;
+  grid-column: 1/2;
+  display: flex;
+}
+.main-01 {
+  background-color: transparent;
+  grid-column: 2/5;
+}
+.form-01 {
+  background-color: transparent;
+  grid-column: 1/2;
+  display:grid;
+  background-position:left
+}
+.footer-01 {
+  background-color: transparent;
+  grid-column: 2/5;
+  display: flex;
+}
+
+.lista-01 {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.lista-02{
+  list-style: none;
+}
+.lista-03 {
+  list-style: none;
+}
